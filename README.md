@@ -2,8 +2,11 @@
 This Repository shows how to set up a OAuth client for machine-to-machine communication (client credential flow [1]) with Spring boot.
 
 ### steps
+Done by the people who have the data:
 1) On your Authorization Server (e.g. Keycloak) you need to add a client with Client Credentials Flow [2]. This will give you a client-id and a client-secret.
 2) The Server that holds the protected data needs to be configured as the Ressource Server with the same Authorization Server configured as the one in the prvious step.
+
+Done by the people who want to access the data:
 3) In your application.yaml you need to update the fields with the data from step 1.
 4) When you call the protected API you need to use the name of the client you setup in your application.yaml
 
