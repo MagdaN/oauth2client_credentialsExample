@@ -10,4 +10,4 @@ spring:
             authorization-grant-type: client_credentials
         provider:
           my-provider:
-            token-uri: <host>/realms/ris/protocol/openid-connect/token # <host> is the host of the Keycloak server
+            token-uri: <host>/realms/<realm>/protocol/openid-connect/token # <host> is the host of the Keycloak server
