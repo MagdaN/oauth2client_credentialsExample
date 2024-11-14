@@ -8,7 +8,6 @@ Done by the people who have the data:
 
 Done by the people who want to access the data:   
 - In your application.yaml you need to update the fields with the data from step 1.   
-- When you call the protected API you need to use the name of the client you setup in your application.yaml
 - add the configurations as they are in the config folder
 - call API as described in the MessagesController.java
 
