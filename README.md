@@ -7,6 +7,7 @@ Done by the people who have the data:
 - The Server that holds the protected data needs to be configured as the Ressource Server with the same Authorization Server configured as the one in the prvious step.
 
 Done by the people who want to access the data:   
+- Install org.springframework.boot:spring-boot-starter-oauth2-client
 - In your application.yaml you need to update the fields with the data from step 1.   
 - add the configurations as they are in the config folder
 - call API as described in the MessagesController.java
