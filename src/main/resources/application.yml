@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          my-client:
+            provider: my-provider
+            client-id: <client-id>
+            client-secret: <client-secret>
+            authorization-grant-type: client_credentials
+        provider:
+          my-provider:
+            token-uri: <host>/realms/ris/protocol/openid-connect/token # <host> is the host of the Keycloak server
